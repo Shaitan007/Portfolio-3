@@ -301,7 +301,7 @@ nav ul li a {
     padding: 100px 0;
     justify-content: center;
     text-align: left;    
-    margin-top: -70px;
+    margin-top: 140px;
     margin-left: -90px;
 }
 
@@ -325,9 +325,9 @@ nav ul li a {
 }
 
 .image2 img{
-    height:60%; 
-    width:85%;
-    margin-top: 0px;
+    height:140%; 
+    width:90%;
+    margin-top: -190px;
     margin-left: -20px;
 }
 
@@ -353,7 +353,7 @@ nav ul li a {
 
 .image2 img {
 	border-width: 10px;
-	border-image: repeating-linear-gradient(80deg, #283c34, #f0f0f0dc 6%) 1;
+	border-image: repeating-linear-gradient(80deg, #375348, #f0f0f0dc 6%) 1;
 }
 
 .radial-repeating {
@@ -381,10 +381,7 @@ nav ul li a {
 	&:before {
 		content: "";
 		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
+		
 		z-index: -1;
 		margin: -8px; /* same as border width */
 		border-radius: inherit; /* inherit container box's radius */
